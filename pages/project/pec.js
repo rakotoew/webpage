@@ -11,9 +11,9 @@ export default function VideoPlayer(){
                 <link rel="icon" href="/favicon.ico" />
             </Head>
             <div>
-                <h2>University Project : BYOD</h2>
-                <p>BYOD : Bring Your Own Device is a serious game made using Unity</p>
-                <ReactPlayer url='https://www.youtube.com/watch?v=5ddYXmOPZTw' />
+                <h2>University Project : PEC</h2>
+                <p>Private Encrypted cloud is a project of a cloud service using end-to-end encryption</p>
+                <ReactPlayer url='https://www.youtube.com/watch?v=tA4RNsqEDdo' />
             </div>
         </Layout>
     )

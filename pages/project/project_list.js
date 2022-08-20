@@ -11,7 +11,7 @@ export default function FirstPost() {
             </Head>
             <h1>List of all my ongoing and finished project</h1>
             <div className={styles.grid}>
-                <Link href="https://pec.ythepaut.com">
+                <Link href="/project/pec">
                     <a className={styles.card}>
                         <h3>Private Encrypted Cloud</h3>
                         <p>A project of an End to End Encrypted cloud for storing and sharing data</p>
@@ -20,7 +20,7 @@ export default function FirstPost() {
                 <Link href="https://www.rakotoew.fr">
                     <a className={styles.card}>
                         <h3>Personal Website </h3>
-                        <p>A project of an End to End Encrypted cloud for storing and sharing data</p>
+                        <p>My personnal Website</p>
                     </a>
                 </Link>
                 <Link href="/project/byod">
