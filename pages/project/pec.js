@@ -1,6 +1,5 @@
 import React from 'react'
 import ReactPlayer from 'react-player'
-import styles from "../../styles/utils.module.css";
 import Layout, {siteTitle} from '../../components/layout';
 import Head from "next/head";
 export default function VideoPlayer(){

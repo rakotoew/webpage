@@ -43,9 +43,9 @@ export default function Home() {
                  <p>Rakotoanosy.ewan@gmail.com</p>
              </div>
              <footer className={styles.footer}>
-                 <a>
+                 <p>
                         This website is under the GNU GPL v.3.0 license
-                 </a>
+                 </p>
              </footer>
          </Layout>
      )
