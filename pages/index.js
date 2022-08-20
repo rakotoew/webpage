@@ -1,4 +1,4 @@
-import Layout, {siteTitle} from "../components/layout";
+import Layout from "../components/layout";
 import styles from "../styles/utils.module.css";
 import Image from "next/image";
 import Link from "next/link";
