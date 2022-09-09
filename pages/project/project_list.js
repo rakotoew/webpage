@@ -1,12 +1,11 @@
 import Link from 'next/link';
 import Layout, {siteTitle} from '../../components/layout';
 import styles from "../../styles/utils.module.css";
-import head from "../head";
 import {useTranslations} from "use-intl";
+
 export default function projects() {
     const t = useTranslations("generic");
     return (
-        head(),
         <Layout className={styles.main}>
             <h2>{t("project.Title")}</h2>
             <div className={styles.grid}>

@@ -1,13 +1,11 @@
 import React from 'react'
 import ReactPlayer from 'react-player'
 import Layout, {siteTitle} from '../../components/layout';
-import Head from "next/head";
-import head from "../head";
 import {useTranslations} from "use-intl";
+
 export default function VideoPlayer(){
     const t = useTranslations("generic");
     return (
-        head(),
         <Layout>
             <div>
                 <h1>{t("project_list.byod.Title")}</h1>

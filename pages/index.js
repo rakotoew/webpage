@@ -3,28 +3,27 @@ import styles from "../styles/utils.module.css";
 import Image from "next/image";
 import Link from "next/link";
 import {useTranslations} from "use-intl";
-
-import head from "./head";
+import head from "../components/head";
 
 export default function Home() {
     const t = useTranslations("generic");
      return(
          head(),
          <Layout home>
-             <main className={styles.main}>
                 <h1 className={styles.title}>
                     {t("home.name")}
                 </h1>
-                 <Image
-                     src="/image/profile.png"
-                     className={styles.imgCircle}
-                     height={200}
-                     width={200}
-                 />
+                <div className={styles.main}>
+                     <Image
+                         src="/image/profile.png"
+                         className={styles.imgCircle}
+                         height={200}
+                         width={200}
+                     />
+                </div>
                 <p className={styles.description}>
                     <span>{t("home.desc1")}</span> <br/> <span>{t("home.desc2")}</span>
                 </p>
-             </main>
              <div className={styles.grid}>
                  <Link href="/project/project_list" >
                      <a className={styles.card}>

@@ -1,6 +1,5 @@
-import {siteTitle} from "../components/layout";
+import {siteTitle} from "./layout";
 import Head from "next/head";
-
 
 export default function head(){
     return(
