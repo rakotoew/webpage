@@ -1,0 +1,41 @@
+{
+  "generic": {
+    "nav_bar": {
+
+    },
+    "project": {
+      "byod": {
+        "Title": "Projet Universitaire : BYOD",
+        "desc": "BYOD : Bring Your Own Device est un jeu sérieux réaliser sous Unity"
+
+      },
+      "pec:":{
+        "Title": "Projet Universitaire : PEC",
+        "desc": "Private Encrypted cloud est un projet d'un service de cloud avec un chiffrement bout-en-bout"
+      },
+      "project_list": {
+
+      }
+    },
+    "home": {
+      "name": "Ewan Rakotoanosy",
+      "desc1": "Etudiant en Informatique",
+      "desc2": "Actuellement en Master Informatique à l'Université Savoie Mont blanc",
+      "grid": {
+        "projects": {
+          "Title": "Projets",
+          "desc": "Liste de mes projets"
+        },
+        "github": {
+          "Title": "GitHub",
+          "desc": "Mon github personnel"
+        }
+      }
+    },
+    "footer": {
+      "Title": "Contact",
+      "email": "rakotoanosy.ewan@gmail.com",
+      "license": "Ce site est License sous GNU GPL v.3.0"
+    }
+  }
+}

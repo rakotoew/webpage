@@ -2,14 +2,17 @@ import Layout from "../components/layout";
 import styles from "../styles/utils.module.css";
 import Image from "next/image";
 import Link from "next/link";
+import {useTranslations} from "use-intl";
+
 import head, {work} from "./head";
 
 export default function Home() {
+    const t = useTranslations("generic");
      return(
          <Layout home>
              <main className={styles.main}>
                 <h1 className={styles.title}>
-                    Ewan Rakotoanosy
+                    {t("home.name")}
                 </h1>
                  <Image
                      src="/image/profile.png"
@@ -18,7 +21,7 @@ export default function Home() {
                      width={200}
                  />
                 <p className={styles.description}>
-                    French Student in computing <br /> Currently doing a master degree at University of Savoy
+                    <span>{t("home.desc1")}</span> <br/> <span>{t("home.desc2")}</span>
                 </p>
 
              </main>
@@ -26,29 +29,37 @@ export default function Home() {
              <div className={styles.grid}>
                  <Link href="/project/project_list" >
                      <a className={styles.card}>
-                         <h3>Projects</h3>
-                         <p>List of my projects</p>
+                         <h3><span>{t("home.grid.projects.Title")}</span></h3>
+                         <p><span>{t("home.grid.projects.desc")}</span></p>
                      </a>
                  </Link>
                  <Link href="https://github.com/rakotoew">
                      <a className={styles.card}>
-                         <h3>GitHub</h3>
-                         <p>My github with some of the work I've done</p>
+                         <h3>{t("home.grid.github.Title")}</h3>
+                         <p>{t("home.grid.github.desc")}</p>
                      </a>
                  </Link>
 
              </div>
              <div className={styles.contact}>
-                 <h1>Contact</h1>
-                 <p>Rakotoanosy.ewan@gmail.com</p>
+                 <h1>{t("footer.Title")}</h1>
+                 <p>{t("footer.email")}</p>
              </div>
              <footer className={styles.footer}>
                  <p>
-                        This website is under the GNU GPL v.3.0 license
+                     <span>{t("footer.license")}</span>
                  </p>
              </footer>
          </Layout>
      )
+}
+
+export function getStaticProps({ locale }) {
+    return {
+        props: {
+            messages: require(`../locales/${locale}.json`),
+        },
+    };
 }
 
 
