@@ -4,17 +4,39 @@
 
     },
     "project": {
+      "Title": "Liste de mes projets en court et finis",
       "byod": {
         "Title": "Projet Universitaire : BYOD",
         "desc": "BYOD : Bring Your Own Device est un jeu sérieux réaliser sous Unity"
 
       },
-      "pec:":{
+      "pec":{
         "Title": "Projet Universitaire : PEC",
         "desc": "Private Encrypted cloud est un projet d'un service de cloud avec un chiffrement bout-en-bout"
+      }
+    },
+    "project_list": {
+      "list": {
+        "pec": {
+          "Title": "Private Encrypted Cloud",
+          "desc": "Projet d'un cloud avec un chiffrement bout-en-bout pour stocker et partager des données de façon sécuriser"
+        },
+        "byod": {
+          "Title": "BYOD",
+          "desc": "Jeux sérieux réaliser avec Unity dans le but d'avoir un jeux sérieux crossplatform"
+        },
+        "web": {
+          "Title": "Mon site web",
+          "desc": "Mon site web réaliser avec next.js"
+        }
       },
-      "project_list": {
-
+      "pec": {
+        "Title": "University Project : PEC",
+        "desc": "Private Encrypted cloud is a project of a cloud service using end-to-end encryption"
+      },
+      "byod": {
+        "Title": "University Project : BYOD",
+        "desc": "BYOD : Bring Your Own Device is a serious game made using Unity"
       }
     },
     "home": {
@@ -29,6 +51,10 @@
         "github": {
           "Title": "GitHub",
           "desc": "Mon github personnel"
+        },
+        "cv": {
+          "Title": "CV",
+          "desc": "Mon cv"
         }
       }
     },

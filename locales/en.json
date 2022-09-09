@@ -2,40 +2,69 @@
   "generic": {
     "nav_bar": {
 
-    },
+     },
+
     "project": {
+      "Title": "List of all my ongoing and finished project",
       "byod": {
         "Title": "University Project : BYOD",
         "desc": "BYOD : Bring Your Own Device is a serious game made using Unity"
-
       },
-      "pec:":{
+      "pec":{
+        "Title": "University Project : PEC",
+        "desc": "Private Encrypted cloud is a project of a cloud service using end-to-end encryption"
+      }
+    },
+
+    "project_list": {
+      "list": {
+        "pec": {
+          "Title": "Private Encrypted Cloud",
+          "desc": "A project of an End to End Encrypted cloud for storing and sharing data"
+        },
+        "byod": {
+          "Title": "BYOD",
+          "desc": "Serious Game created with unity with the goal of making it crossplatform"
+        },
+        "web": {
+          "Title": "Personal Website",
+          "desc": "My personnal Website made using next.js"
+        }
+      },
+      "pec": {
         "Title": "University Project : PEC",
         "desc": "Private Encrypted cloud is a project of a cloud service using end-to-end encryption"
       },
-      "project_list": {
+      "byod": {
+        "Title": "University Project : BYOD",
+        "desc": "BYOD : Bring Your Own Device is a serious game made using Unity"
+      }
+    },
 
-      }
-    },
-    "home": {
-      "name": "Ewan Rakotoanosy",
-      "desc1": "French Student in computing",
-      "desc2": "Currently doing a master degree at University of Savoy",
-      "grid": {
-        "projects": {
-          "Title": "Projects",
-          "desc": "List of my projects"
-        },
-        "github": {
-          "Title": "GitHub",
-          "desc": "My github with some of the work I've done"
-        }
-      }
-    },
-    "footer": {
-      "Title": "Contact",
-      "email": "rakotoanosy.ewan@gmail.com",
-      "license": "This website is under the GNU GPL v.3.0 license"
-    }
-    }
+     "home": {
+       "name": "Ewan Rakotoanosy",
+       "desc1": "French Student in computing",
+       "desc2": "Currently doing a master degree at University of Savoy",
+       "grid": {
+         "projects": {
+           "Title": "Projects",
+           "desc": "List of my projects"
+         },
+         "github": {
+           "Title": "GitHub",
+           "desc": "My github with some of the work I've done"
+         },
+         "cv": {
+           "Title": "CV",
+           "desc": "My cv"
+         }
+       }
+     },
+
+     "footer": {
+       "Title": "Contact",
+       "email": "rakotoanosy.ewan@gmail.com",
+       "license": "This website is under the GNU GPL v.3.0 license"
+     }
   }
+}

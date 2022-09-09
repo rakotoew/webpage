@@ -82,13 +82,9 @@
 }
 
 .grid {
-    display: inline-flex;
-    align-items: center;
-    justify-content: center;
-    flex-wrap: wrap;
-
-    max-width: 1024px;
-    margin-top: 3rem;
+    display: grid;
+    grid-template-columns: 33% 33% 33%;
+    grid-gap: 10px;
 }
 
 .card {

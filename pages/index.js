@@ -4,11 +4,12 @@ import Image from "next/image";
 import Link from "next/link";
 import {useTranslations} from "use-intl";
 
-import head, {work} from "./head";
+import head from "./head";
 
 export default function Home() {
     const t = useTranslations("generic");
      return(
+         head(),
          <Layout home>
              <main className={styles.main}>
                 <h1 className={styles.title}>
@@ -23,9 +24,7 @@ export default function Home() {
                 <p className={styles.description}>
                     <span>{t("home.desc1")}</span> <br/> <span>{t("home.desc2")}</span>
                 </p>
-
              </main>
-             <div>{work}</div>
              <div className={styles.grid}>
                  <Link href="/project/project_list" >
                      <a className={styles.card}>
@@ -37,6 +36,12 @@ export default function Home() {
                      <a className={styles.card}>
                          <h3>{t("home.grid.github.Title")}</h3>
                          <p>{t("home.grid.github.desc")}</p>
+                     </a>
+                 </Link>
+                 <Link href="">
+                     <a className={styles.card}>
+                         <h3>{t("home.grid.cv.Title")}</h3>
+                         <p>{t("home.grid.cv.desc")}</p>
                      </a>
                  </Link>
 
