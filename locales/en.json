@@ -3,19 +3,17 @@
     "nav_bar": {
       "home": "Home",
       "projects": "Projects"
-    },
+     },
 
     "project": {
       "Title": "List of all my ongoing and finished project",
       "byod": {
         "Title": "University Project : BYOD",
-        "desc": "BYOD : Bring Your Own Device is a serious game made using Unity",
-        "detail": "Details"
+        "desc": "BYOD : Bring Your Own Device is a serious game made using Unity"
       },
       "pec":{
         "Title": "University Project : PEC",
-        "desc": "Private Encrypted cloud is a project of a cloud service using end-to-end encryption",
-        "detail": "Details on project"
+        "desc": "Private Encrypted cloud is a project of a cloud service using end-to-end encryption"
       }
     },
 

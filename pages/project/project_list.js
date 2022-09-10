@@ -10,9 +10,7 @@ export default function projects() {
         <Layout className={styles.main}>
             <h1 className={styles.title}>{t("nav_bar.projects")}</h1>
             <h4>{t("project.Title")}</h4>
-            <!-- Project list-->
             <div className={styles.grid}>
-                <!-- Pec card-->
                 <Link href="/project/pec">
                     <a className={styles.card}>
                         <h3>{t("project_list.list.pec.Title")}</h3>
@@ -20,7 +18,6 @@ export default function projects() {
                         <p>{t("project_list.list.pec.desc")}</p>
                     </a>
                 </Link>
-                <!-- byod card-->
                 <Link href="/project/byod">
                     <a className={styles.card}>
                         <h3>{t("project_list.list.byod.Title")}</h3>
@@ -28,8 +25,7 @@ export default function projects() {
                         <p>{t("project_list.list.byod.desc")}</p>
                     </a>
                 </Link>
-                <!-- web card, change to code when code is made public -->
-                <Link href="/">
+                <Link href="https://www.rakotoew.fr">
                     <a className={styles.card}>
                         <h3>{t("project_list.list.web.Title")}</h3>
                         <h4>Javascript</h4>
@@ -42,9 +38,6 @@ export default function projects() {
 }
 
 export function getStaticProps({ locale }) {
-    /*
-        function to verify
-     */
     return {
         props: {
             messages: require(`../../locales/${locale}.json`),
