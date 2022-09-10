@@ -23,19 +23,23 @@ export default function Home() {
                 <p className={styles.description}>
                     <span>{t("home.desc1")}</span> <br/> <span>{t("home.desc2")}</span>
                 </p>
+             <!-- List of link to different pages -->
              <div className={styles.grid}>
+                 <!-- projects card -->
                  <Link href="/project/project_list" >
                      <a className={styles.card}>
                          <h3><span>{t("home.grid.projects.Title")}</span></h3>
                          <p><span>{t("home.grid.projects.desc")}</span></p>
                      </a>
                  </Link>
+                 <!-- github card -->
                  <Link href="https://github.com/rakotoew">
                      <a className={styles.card}>
                          <h3>{t("home.grid.github.Title")}</h3>
                          <p>{t("home.grid.github.desc")}</p>
                      </a>
                  </Link>
+                 <!-- Curriculum vitae card TODO: link to cv -->
                  <Link href="">
                      <a className={styles.card}>
                          <h3>{t("home.grid.cv.Title")}</h3>
@@ -44,10 +48,12 @@ export default function Home() {
                  </Link>
 
              </div>
+             <!-- contact part TODO: add captcha -->
              <div className={styles.contact}>
                  <h1>{t("footer.Title")}</h1>
                  <p>{t("footer.email")}</p>
              </div>
+             <!-- footer TODO: license link, code link, etc -->
              <footer className={styles.footer}>
                  <p>
                      <span>{t("footer.license")}</span>

@@ -8,9 +8,13 @@ export default function VideoPlayer(){
     return (
         <Layout>
             <div>
-                <h1>{t("project_list.pec.Title")}</h1>
-                <p>{t("project_list.pec.desc")}</p>
+                <h1>{t("project.pec.Title")}</h1>
+                <p>{t("project.pec.desc")}</p>
+                <!-- pec video-->
                 <ReactPlayer url='https://www.youtube.com/watch?v=tA4RNsqEDdo' />
+            </div>
+            <div>
+                <p>{t("project.pec.detail")}</p>
             </div>
         </Layout>
     )

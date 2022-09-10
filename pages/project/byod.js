@@ -8,9 +8,13 @@ export default function VideoPlayer(){
     return (
         <Layout>
             <div>
-                <h1>{t("project_list.byod.Title")}</h1>
-                <p>{t("project_list.byod.desc")}</p>
+                <h1>{t("project.byod.Title")}</h1>
+                <p>{t("project.byod.desc")}</p>
+                <!-- byod video -->
                 <ReactPlayer url='https://www.youtube.com/watch?v=5ddYXmOPZTw' />
+            </div>
+            <div>
+                <p>{t("project.byod.detail")}</p>
             </div>
         </Layout>
     )
