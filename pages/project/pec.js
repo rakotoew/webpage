@@ -2,6 +2,7 @@ import React from 'react'
 import ReactPlayer from 'react-player'
 import Layout from '../../components/layout';
 import {useTranslations} from "use-intl";
+
 export default function VideoPlayer(){
     const t = useTranslations("generic");
     return (

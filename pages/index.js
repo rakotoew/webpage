@@ -3,12 +3,11 @@ import styles from "../styles/utils.module.css";
 import Image from "next/image";
 import Link from "next/link";
 import {useTranslations} from "use-intl";
-import head from "../components/head";
+
 
 export default function Home() {
     const t = useTranslations("generic");
      return(
-         head(),
          <Layout home>
                 <h1 className={styles.title}>
                     {t("home.name")}

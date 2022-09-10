@@ -1,7 +1,8 @@
 {
   "generic": {
     "nav_bar": {
-
+      "home": "Home",
+      "projects": "Projects"
      },
 
     "project": {

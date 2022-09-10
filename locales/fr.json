@@ -1,7 +1,8 @@
 {
   "generic": {
     "nav_bar": {
-
+      "home": "Home",
+      "projects": "Projets"
     },
     "project": {
       "Title": "Liste de mes projets en court et finis",
