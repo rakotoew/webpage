@@ -8,7 +8,8 @@ export default function projects() {
     const t = useTranslations("generic");
     return (
         <Layout className={styles.main}>
-            <h2>{t("project.Title")}</h2>
+            <h1 className={styles.title}>{t("nav_bar.projects")}</h1>
+            <h4>{t("project.Title")}</h4>
             <div className={styles.grid}>
                 <Link href="/project/pec">
                     <a className={styles.card}>
