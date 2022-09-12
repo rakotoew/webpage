@@ -48,11 +48,6 @@ export default function Home() {
                  <h1>{t("footer.Title")}</h1>
                  <p>{t("footer.email")}</p>
              </div>
-             <footer className={styles.footer}>
-                 <p>
-                     <span>{t("footer.license")}</span>
-                 </p>
-             </footer>
          </Layout>
      )
 }
