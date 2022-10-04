@@ -36,7 +36,7 @@ export default function Home() {
                          <p>{t("home.grid.github.desc")}</p>
                      </a>
                  </Link>
-                 <Link href="">
+                 <Link href="/cv">
                      <a className={styles.card}>
                          <h3>{t("home.grid.cv.Title")}</h3>
                          <p>{t("home.grid.cv.desc")}</p>

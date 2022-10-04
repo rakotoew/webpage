@@ -1,5 +1,6 @@
 {
   "generic": {
+    "back": "Home",
     "nav_bar": {
       "home": "Home",
       "projects": "Projects"

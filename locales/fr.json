@@ -1,5 +1,6 @@
 {
   "generic": {
+    "back": "Retour",
     "nav_bar": {
       "home": "Home",
       "projects": "Projets"
@@ -24,7 +25,7 @@
         },
         "byod": {
           "Title": "BYOD",
-          "desc": "Jeux sérieux réaliser avec Unity dans le but d'avoir un jeux sérieux crossplatform"
+          "desc": "Jeux sérieux réaliser avec Unity dans le but d'avoir un jeux crossplatform"
         },
         "web": {
           "Title": "Mon site web",
@@ -32,12 +33,12 @@
         }
       },
       "pec": {
-        "Title": "University Project : PEC",
-        "desc": "Private Encrypted cloud is a project of a cloud service using end-to-end encryption"
+        "Title": "Projet Universitaire : PEC",
+        "desc": "Private Encrypted cloud est un service cloud sécuriser avec un cryptage bout-en-bout"
       },
       "byod": {
-        "Title": "University Project : BYOD",
-        "desc": "BYOD : Bring Your Own Device is a serious game made using Unity"
+        "Title": "Projet Universitaire : BYOD",
+        "desc": "BYOD : Bring Your Own Device est un jeu réalisé sous Unity"
       }
     },
     "home": {
