@@ -60,6 +60,9 @@
         }
       }
     },
+    "cv": {
+      "title": "Mon CV"
+    },
     "footer": {
       "Title": "Contact",
       "email": "rakotoanosy.ewan@gmail.com",
